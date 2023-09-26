@@ -1,0 +1,2 @@
+#!/bin/bash
+cut /d: -f1 /etc/passwd > users && cut -d: -f6 /etc/passwd > dirs && paste users dirs && rm users dirs
